@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Background Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Gradient Background Generator</h1>
+        <div class="subHead">
+            <div class="colorInput">
+                <input type="color" name="color1" id="color1" value="#43C6AC">
+                <span id="colorValue1"></span>
+                <i class="fas fa-arrow-right"></i>
+                <input type="color" name="color2" id="color2" value="#191654">
+                <span id="colorValue2"></span>
+            </div>
+            <div class="cssCode">
+                <button id="linearBtn">Linear Gradient</button>
+                <button id="verticalBtn">Vertical Gradient</button>
+
+                <button id="showBtn">
+                    <i class="fas fa-code" title="CSS Code"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <!-- will show the gradient -->
+        <div class="card">
+            <h4>CSS</h4>
+            <p>background: <span id="display">linear-gradient(to right, rgb(67, 198, 172), rgb(25, 22, 84));</span></p>
+        </div>
+    </div>
+    
+    <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 15vh;
+    background-color: rgba(0, 0, 0);
+}
+.header{
+    box-shadow: 0 0.3rem rgba(0, 0, 0, 0.9);
+}
+h1, h4{
+    /* height: 7vh; */
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 0.15rem;
+    font-weight: 500;
+    
+}
+h1{
+    font-weight: 400;
+    color:rgb(226, 226, 226,0.8);
+}
+h4{
+    font-size: 1.3rem;
+}
+.subHead{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+i{
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+.fa-arrow-right{
+    padding: 1.2rem;
+}
+.colorInput{
+    padding-left: 3rem;
+    position: relative;
+    left: 8%;
+    color:rgb(226, 226, 226,0.8);
+}
+.cssCode{
+    padding: 1.2rem;
+    animation: heartBeat 10s linear;
+    position: relative;
+    right: 5%;
+}
+.cssCode button{
+    outline: none;
+    border-style: none;
+    background-color: inherit;
+    color:rgb(226, 226, 226,0.8);
+}
+.fa-code{
+    margin-left: auto;
+    position: relative;
+    cursor: pointer;
+}
+.fa-code:hover{
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+input{
+    background-color: rgba(0, 0, 0,0.8);
+    margin-top: 0;
+    width: 1.5rem;
+    border: none;
+    
+    
+}
+.container{
+    height: 85vh;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#43C6AC, #191654);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #43C6AC, #191654); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.card{
+    position: relative;
+    color: #fff;
+    top: 10%;
+    margin : auto auto;
+    width: 40%;
+    box-sizing: border-box;
+    padding-top: 1rem ;
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0,0.4);
+    border-radius: 10px;
+    display: none;
+    
+    
+    /* transition: 2s ease-in; */
+
+}
+.card p{
+    font-size : 1.1rem;
+    font-weight: 350;
+    letter-spacing: 0.09rem;
+    
+}
+.show{
+    display: block;
+}
+
+@media screen and (max-width:550px){
+    h1{
+        margin: 0 auto;
+        padding: 10px 0 5px 0;
+        letter-spacing: 0.04rem;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .colorInput{
+        padding-left: 0.2rem;
+        margin: 0;
+        
+    }
+    .cssCode{
+        padding-top:0.3rem;
+        right: 5%;
+        
+    }
+    input{
+        width: 1rem;
+    }
+    .fa-arrow-right{
+        padding: 0.3rem;
+        color:rgb(226, 226, 226,0.8);
+    }
+}
