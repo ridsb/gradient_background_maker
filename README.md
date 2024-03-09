@@ -3,7 +3,7 @@
 
 **Description:**
 
-A website that is a lightweight and user-friendly gradient background maker crafted with HTML, CSS, and JavaScript. This tool is designed to simplify the process of creating captivating gradient backgrounds for your web projects. With an intuitive interface and seamless functionality, ColorWave empowers designers and developers to effortlessly enhance the visual appeal of their websites.
+A website that is a lightweight and user-friendly gradient background maker crafted with HTML, CSS, and JavaScript. This tool is designed to simplify the process of creating captivating gradient backgrounds for your web projects. With an intuitive interface and seamless functionality, the website empowers designers and developers to effortlessly enhance the visual appeal of their websites.
 
 ![image](https://github.com/ridsb/gradient_background_maker/assets/108459805/ea4c75c6-69d7-44ef-b7c3-2ff8a8e4914c)
 
